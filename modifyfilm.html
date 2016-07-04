@@ -1,0 +1,186 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+
+Name       : Clear-Cut
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20130903
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet" />
+    <link href="default.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+
+    <!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+    <style>
+
+        #modifyfilm{
+            border:1px solid black;
+            margin-top:10%;
+            margin-left:35%;
+            margin-right:33%;
+            padding: 20px;
+            text-align: center;
+        }
+        input[type="submit"]
+        {
+            font-size:24px;
+            padding:5px;
+            text-align: center;
+            margin-left:12%;
+            width: 300px;
+        }
+        input[type="text"]
+        {
+            font-size:24px;
+            padding:5px;
+            margin-left:12%;
+            width: 285px;
+        }
+        select
+        {
+            font-size:24px;
+            padding:5px;
+            text-align: center;
+            margin-left:12%;
+            width: 300px;
+        }
+
+
+    </style>
+
+</head>
+<body>
+<div id="header-wrapper">
+    <div id="header" class="container">
+        <div id="logo">
+            <h1><a href="#">Film</a></h1>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="index.html" accesskey="2" title="">Home</a></li>
+                <li><a href="film.html" accesskey="2" title="">Film</a></li>
+                <li><a href="#" accesskey="3" title="">Actor</a></li>
+                <li><a href="#" accesskey="4" title="">About Us</a></li>
+                <li><a href="#" accesskey="5" title="">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div id="header-featured">
+</div>
+<div id="banner-wrapper">
+    <div id="banner" class="container">
+        <h2>Film Management System</h2>
+    </div>
+</div>
+
+<div id="wrapper">
+    <div id="page" class="container">
+        <div id="content">
+            <div class="sbox1">
+                <ul class="style2">
+                    <li class="icon icon-ok"><a href="addfilm.html">Add Film</a></li>
+                    <li class="icon icon-ok"><a href="deletefilm.html">Delete Film</a></li>
+                    <li class="icon icon-ok"><a href="Searchfilm.html">Search Film</a></li>
+                    <li class="icon icon-ok"><a href="modifyfilm.html">Update Film</a></li>
+                </ul>
+            </div></div>
+        <div id="sidebar">
+            <div id="stwo-col">
+                <div class="sbox1">
+
+                    <table align="center">
+                        <form id="modifyfilm" name="modifyfilm">
+                            <tr>
+                                <td>Select film to update</td>
+                            </tr>
+                            <tr>
+                                <td>Actor</td>
+                                <td>
+                                    <select name="Film" >
+                                        <option value="" placeholder="Film"></option>
+                                        <option></option><option></option>
+                                        <option></option><option></option>
+                                        <option></option><option></option>
+                                        <option></option><option></option>
+                                        <option></option><option></option>
+                                        <option></option><option></option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Film Name</td>
+                                <td><input type="text" placeholder="Film Nmae"/>
+                            </tr>
+                            <tr>
+                                <td>Film description</td>
+                                <td><input type="text" placeholder="Description"/>
+                            </tr>
+                            <tr>
+                                <td>Release Year</td>
+                                <td><input type="text" placeholder="Film Release Year"/>
+                            </tr>
+                            <tr>
+                                <td>Actor</td>
+                                <td>
+                                    <select name="Actor" >
+                                        <option value="" placeholder="actor">actor</option>
+                                        <option>Amitabh Bachhan</option><option>Amitabh Bachhan</option>
+                                        <option>Amir Khan</option><option>Amir Khan</option>
+                                        <option>AKshay Kumar</option><option>AKshay Kumar</option>
+                                        <option>Salman Khan</option><option>Salman Khan</option>
+                                        <option>Sahrukh Khan</option><option>Sahrukh Khan</option>
+                                        <option>Hrutik Roshan</option><option>Hrutik Roshan</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Category</td>
+                                <td>
+                                    <select name="category" >
+                                        <option value="" placeholder="category">Category</option>
+                                        <option>Thriller</option><option>Thriller</option>
+                                        <option>Action Film</option><option>Action Film</option>
+                                        <option>Comedy Film</option><option>Comedy Film</option>
+                                        <option>Horror Film</option><option>Horror Film</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Film Leanth</td>
+                                <td><input type="text" placeholder="Film Length"/>
+                            </tr>
+                            <tr>
+                                <td>Rating</td>
+                                <td><input type="text" placeholder="Rating"/>
+                            </tr>
+                            <tr>
+                                <td>Image</td>
+                                <td><input type="text" placeholder="Image"/>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><input type="submit" value="Modify Film" name="modifyfilm"/>
+                            </tr>
+                        </form>
+                    </table>
+                </div>
+            </div>
+        </div>
+</div>
+    </div>
+    <div id="copyright" class="container">
+        <p>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+    </div>
+</body>
+</html>
